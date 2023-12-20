@@ -1,0 +1,19 @@
+.card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.cardImg{
+  width: 45px;
+  height: 45px;
+  margin-top: 20px;
+}
+.button{
+  margin-right: 120px;
+
+}
+:global .MuiButtonBase-root.MuiButton-root.MuiButton-text{
+  color: #2d2e30;
+  text-transform: capitalize;
+}

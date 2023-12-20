@@ -1,0 +1,33 @@
+.header{
+  .row{
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.add{
+  width: 60px;
+  height: 30px;
+  background: #0629de;
+  border-radius: 5px;
+  margin-top: 10px;
+  text-align: center;
+}
+.text{
+  text-transform: capitalize;
+}
+
+.icons{
+  width: 20px;
+  height: 20px;
+  font-size: 15px;
+  font-weight:bold;
+  margin-left: 20px;
+  text-transform: capitalize;
+}
+.cardRow{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3px;
+  text-align: center;
+  margin-top: 20px;
+}
